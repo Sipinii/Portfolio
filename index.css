@@ -616,7 +616,7 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Youtube ----- */
 /* --------------------------------------- */
 
-/* .video-container {
+.video-container {
     position: relative;
     width: 100%;
     max-width: 800px;
@@ -635,4 +635,4 @@ body:not(.user-is-tabbing) a:focus {
     top: 0;
     left: 0;
     border-radius: 12px;
-} */
+}
