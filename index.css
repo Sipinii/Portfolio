@@ -473,8 +473,9 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__list {
     /* list-style-type: square; */
-    list-style-position: inside;
+    list-style-position: outside;
     margin-bottom: var(--gutter-normal);
+    padding-left: 20px;
 }
 
 .work__code {
@@ -619,7 +620,7 @@ body:not(.user-is-tabbing) a:focus {
 .video-container {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 700px;
     margin: auto;
     padding-bottom: 56.25%;
     height: 0;
