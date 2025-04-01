@@ -617,16 +617,30 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Youtube ----- */
 /* --------------------------------------- */
 
+/* .work__image-box {
+    margin-bottom: var(--gutter-normal);
+} */
+
+
 .video-container {
+    margin-bottom: var(--gutter-normal);
     position: relative;
     width: 100%;
     max-width: 700px;
     margin: auto;
     aspect-ratio: 16 / 9;
-    border: 5px solid #ffffff;
+    /* border: 5px solid #ffffff; */
     border-radius: 12px;
     overflow: hidden;
 }
+
+@media(min-width: 901px) {
+    .video-container {
+        flex: 1;
+        margin: 0 0 0 10rem;
+    }
+}
+
 
 .video-container iframe {
     position: absolute;
